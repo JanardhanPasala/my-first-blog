@@ -1,0 +1,81 @@
+Microsoft Windows [Version 10.0.17134.228]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\WELCOME>myenv\Scripts\activate
+The system cannot find the path specified.
+
+C:\Users\WELCOME>cd F:
+F:\
+
+C:\Users\WELCOME>cd
+C:\Users\WELCOME
+
+C:\Users\WELCOME>F:
+
+F:\>Django_Tutorials
+'Django_Tutorials' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\>Django_Tutorials:
+'Django_Tutorials:' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\>cd Django_Tutorials
+
+F:\Django_Tutorials>myenv\Scripts\activate
+The system cannot find the path specified.
+
+F:\Django_Tutorials>myvenv\Scripts\activate
+(myvenv) F:\Django_Tutorials>django-admin.exe startproject mysite.
+CommandError: 'mysite.' is not a valid project name. Please make sure the name is a valid identifier.
+
+(myvenv) F:\Django_Tutorials>django-admin.exe startproject mysite .
+
+(myvenv) F:\Django_Tutorials>python manage.py migrate
+Traceback (most recent call last):
+  File "manage.py", line 8, in <module>
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "manage.py", line 14, in <module>
+    ) from exc
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+
+(myvenv) F:\Django_Tutorials>myvenv\Scripts\activate
+(myvenv) F:\Django_Tutorials>python manage.py migrate
+Traceback (most recent call last):
+  File "manage.py", line 8, in <module>
+    from django.core.management import execute_from_command_line
+ModuleNotFoundError: No module named 'django'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "manage.py", line 14, in <module>
+    ) from exc
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
+
+(myvenv) F:\Django_Tutorials>django-admin --version
+2.1.1
+
+(myvenv) F:\Django_Tutorials>sys.path
+'sys.path' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) F:\Django_Tutorials>import django
+'import' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) F:\Django_Tutorials>python
+Python 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:14:34) [MSC v.1900 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import django
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'django'
+>>> quit()
+
+(myvenv) F:\Django_Tutorials>
